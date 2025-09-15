@@ -1,0 +1,27 @@
+body {
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+#contactus h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+#contactus input,
+#contactus textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    transition: border 0.3s;
+}
+button:hover{
+    cursor: pointer;
+    background-color: aqua;
+}
