@@ -1,0 +1,11 @@
+button{
+    border: 2px solid black;
+    align-items: center;
+    border-radius: 2px;
+    padding: 10px 20px;
+     margin: 30px 550px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: aqua;
+}
