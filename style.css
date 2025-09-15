@@ -1,0 +1,19 @@
+h1{
+    color: brown;
+    text-align: center;
+}
+.navbar{
+    display: flex; 
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.navbar a {
+      color: blue;
+      text-decoration: none;
+      padding: 8px 16px;
+      display: block;
+ }
+ .navbar a:hover {
+      background-color: paleturquoise;
+      border-radius: 4px;
+    }
