@@ -4,37 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-     <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: #f0f2f5;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-        }
-
-        p {
-            background-color: #fff;
-            padding: 30px 40px;
-            border-radius: 10px;
-            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
-            max-width: 700px;
-            line-height: 1.6;
-            font-size: 18px;
-            color: #333;
-            text-align: justify;
-        }
-    </style>
+    <link rel="stylesheet" href="style4.css">
 </head>
 <body>
     <div class="navbar">
         <a href="index.html">Home</a>
-        <a href="About.html">About us</a>
+        <a href="About.html">About users</a>
         <a href="Contact.html">contact us</a>
         <a href="diff.html">Explore</a>
     </div>
-    <p>As a lifelong dog lover, I’ve always been fascinated by the joy, loyalty, and energy that dogs bring into our lives. My passion for these wonderful animals inspired me to start my own venture selling dogs, where I focus on finding loving homes for healthy, happy pups. Every dog deserves a family that cherishes them, and every customer deserves guidance on how to care for their new furry friend. From playful puppies to calm adult dogs, I take pride in matching each dog with the right family, sharing my knowledge and love for these amazing companions along the way.</p>
+     <h1>Fetch User by ID</h1>
+     <input type="number" id="userId" placeholder="Enter a number [1-10]">
+     <button onClick="fetchUser()">Enter</button>
+     <div id="output"></div>
+     <script src="index2.js"></script>
 </body>
 </html>
