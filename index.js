@@ -6,7 +6,11 @@ async function Getproducts() {
     displayProducts(data);
   }
   catch(error){
-    alert('failed to fetch data');
+    console.log(error);
+    setTimeout(()=>{
+
+      window.location.href = "error.html";
+    },2000)
   }
 }
 function displayProducts(products) {
@@ -18,7 +22,7 @@ function displayProducts(products) {
       <img src="${product.image}" alt="${product.title}">
       <h3>${product.title}</h3>
       <p><strong>Price:</strong> $${product.price}</p>
-      <p>${product.description.substring(0, 100)}...</p>
+      <p>${product.description.substring(0, 100)}</p>
     `;
     output.appendChild(div);
   });

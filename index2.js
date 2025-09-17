@@ -20,6 +20,9 @@ async function fetchUser() {
 
      }
      catch(error){
-          output.innerHTML= `<div class="error">⚠️ user not exists</div>`
+          console.log("User not exist")
+          setTimeout(()=>{
+               window.location.href='error.html'
+          },3000)
      }
 }
