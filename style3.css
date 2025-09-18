@@ -57,7 +57,7 @@
 
 @media (max-width: 768px) {
   .navbar {
-    position: relative;
+
     flex-direction: column;
     align-items: flex-start;
   }
